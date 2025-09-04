@@ -120,14 +120,10 @@ pipe  swap-sol-for-pipe <AMOUNT_SOL>
 ### Now lets Upload a file
 
 ```
-pipe upload-file <FILE_PATH> <FILE_NAME>
+pipe upload-file ~/<FILE_PATH> <FILE_NAME>
 ```
 
 * >Replace <FILE_PATH> & <FILE_NAME> with their actual file name : 
-
-```
-~/Name_of_your_file
-```
 
 ### Create Public Link
 
@@ -135,6 +131,11 @@ pipe upload-file <FILE_PATH> <FILE_NAME>
 pipe create-public-link <FILE_NAME>
 ```
 * >Replace <FILE_NAME> which you have used earlier while uploading a file:
+
+Check ur File Name & Path
+```
+ls -a
+```
 
 ### Check Token-Usage
 
@@ -154,4 +155,20 @@ pipe token-usage
 3. Wait for 6 to 7 day to get Firestarter Role 
 
 ---
+
+## 🔶For Next Day Run This Command
+
+#1 Open WSL and Put this Command 
+```
+cd pipe
+```
+```
+pipe  swap-sol-for-pipe <AMOUNT_SOL>
+```
+```
+pipe upload-file ~/<FILE_PATH> <FILE_NAME>
+```
+```
+pipe create-public-link <FILE_NAME>
+```
 
