@@ -134,6 +134,9 @@ pipe create-public-link <FILE_NAME>
 
 Check ur File Name & Path
 ```
+explorer.exe
+```
+```
 ls -a
 ```
 
