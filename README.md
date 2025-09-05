@@ -89,7 +89,7 @@ Earn PIPE tokens by referring friends to the Pipe Network!
 #### Commands
 
 ```
-pipe referral apply 
+pipe referral apply CRYPTOBH-LKGM
 ```
 
 #### Get Your referral code:
